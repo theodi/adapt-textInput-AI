@@ -1,0 +1,82 @@
+    // Text Input AI with example from BBC Bitesize (https://www.bbc.co.uk/bitesize/guides/z8bkwxs/revision/1)
+    //
+    // --------------------------------------------------
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "textinput",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Title of our text input component",
+        "displayTitle": "Title of our text input component",
+        "body": "Read the opening four paragraphs of Lord of the Flies, by William Golding. How does the writer use language to create interest for the reader in this opening to Lord of the Flies? (10 marks)",
+        "instruction": "Input your answer and press Submit.",
+        "ariaQuestion": "Question text specifically for screen readers.",
+        "_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": false,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "_allowsAnyCase": true,
+        "_allowsPunctuation": true,
+        "modelAnswer": "The blond boy is wearing school uniform, and is \"Home Counties\" which is incongruous in comparison to the exotic \"lagoon\" and \"jungle\" location. This is emphasised by how unsuitable his clothing is – he is too hot even when he has taken his sweater off, because he is in a \"bath of heat.\" This contrast is highlighted by the details of the colour: while the boy is \"grey\", his surroundings are a source of bright colour, like the bird which is a \"vision of red and yellow.\" The use of the abrupt dialogue after the multi-clause sentence creates more interest for the reader, as we are intrigued by the source of the voice. This curiosity is deepened by Golding’s use of \"it\" and \"the voice\", instead of a name or identifying pronoun. The bird’s \"witch-like cry\" creates a sense of foreboding; the connotations of this simile suggest danger and evil. This is also seen in use of the metaphor the \"long scar\" which is \"smashed into the jungle.\" The word \"scar\" is associated with wounds, and hurt. Like the boys, it is also out of place in relation to the jungle surroundings, and the word \"smashed\" suggests some violence. Again, we do not know the source of the scar: this creates a sense of mystery for the reader. Feedback: (1) Each point is supported by an embedded quotation, and developed with reference to other details. (2) It uses technical vocabulary like \"simile\", \"multi-clause sentence\", \"foreboding\" and \"incongruous\" to explain how effects are created, and it weaves these terms into the argument, rather than stating \"this is a simile\". (3) The effect on the reader is explored implicitly, signalled by words like \"intrigue\" and \"sense of mystery\". (4) The points are not based around the techniques, but around the effects, which creates a more sophisticated analysis.",
+        "maxScore": 10,
+        "passScore": 4,
+        "chatTemplate": "This is the user answer:\n\n{{userAnswer}}. Give the user some constrcutive feedback on their answer.",
+        "aiAPIKey": "api-key",
+        "_feedback": {
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_bands": [
+                {
+                    "_score": 4,
+                    "feedback": "Only just passed."
+                },
+                {
+                    "_score": 6,
+                    "feedback": "Good effort."
+                },
+                {
+                    "_score": 8,
+                    "feedback": "Great work."
+                }
+            ]
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }

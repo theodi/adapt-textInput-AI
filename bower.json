@@ -1,0 +1,17 @@
+{
+  "name": "adapt-textInput-AI",
+  "version": "0.1.1",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/theodi/adapt-textInput-AI",
+  "bugs": "https://github.com/theodi/adapt-textInput-AI/issues",
+  "component": "textinputAI",
+  "targetAttribute": "_textinputAI",
+  "displayName": "Text Input (AI enabled)",
+  "description": "A question component that allows the learner to input text. Their answer is marked and graded by AI based upon a model answer you give. This plugin is designed for long text form input in a single text area.",
+  "main": "/js/adapt-textInput-AI.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}
