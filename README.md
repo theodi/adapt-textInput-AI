@@ -97,8 +97,7 @@ In XAPI these are stored in the approprate variables of the same name.
 Currently the plug-in does not have a mechanism for people to appeal the grading and comments the AI assistant gives. The publishers of the plugin are not respoinsible for how the AI assistant responds and it is highly recommended that a thorough evaluation be carried out on the use of this component prior to deployment. This should be done for every single reuse. Later versions of the plugin will include "report and rate this feedback" functionality. Alternatively you could include instructions in the "\_feedback" section. This plugin is not recommended for use in situations where it's grading is part of a qualification that is used to make decisions about a persons future, e.g. certified courses.
 
 ----------------------------
-<a href="https://community.adaptlearning.org/" target="_blank"><img src="https://github.com/adaptlearning/documentation/blob/master/04_wiki_assets/plug-ins/images/adapt-logo-mrgn-lft.jpg" alt="adapt learning logo" align="right"></a>
-**Author / maintainer:** Adapt Core Team with [contributors](https://github.com/adaptlearning/adapt-contrib-textInput/graphs/contributors)
+**Author / maintainer:** The Open Data Institute
 **Accessibility support:** WAI AA
 **RTL support:** Yes
 **Cross-platform coverage:** Chrome, Chrome for Android, Firefox (ESR + latest version), Edge, IE11, Safari 12+13 for macOS/iOS/iPadOS, Opera
