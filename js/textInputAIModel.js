@@ -73,6 +73,15 @@ class TextInputAIModel extends QuestionModel {
     return isCorrect;
   }
 
+  get score() {
+    if (this.get('_score')) {
+      return this.get('_score');
+    } else {
+      return 0;
+    }
+  }
+
+
   markQuestion() {
     this.set('_canShowFeedback',true);
     var conversation = this.get('conversation');
