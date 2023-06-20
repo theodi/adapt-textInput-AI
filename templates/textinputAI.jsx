@@ -7,8 +7,6 @@ export default function TextInput (props) {
     _id,
     _isEnabled,
     _isCorrect,
-    _shouldShowMarking,
-    _globals,
     displayTitle,
     body,
     instruction,
@@ -32,7 +30,7 @@ export default function TextInput (props) {
         aria-label={ariaQuestion || null}
       >
 
-      <textarea id={`${_id}-userInput`} class="js-textinputAI-textbox" rows="10" cols="80"></textarea>
+        <textarea id={`${_id}-userInput`} className="js-textinputAI-textbox" rows="10" cols="80"></textarea>
       </div>
       <div className="btn__container" />
     </div>
